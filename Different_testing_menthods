@@ -1,0 +1,41 @@
+Different testing menthods
+
+The Unit Testing module helps you to document your code, eliminate duplicate code, and write unit tests that embrace change.
+
+Run unit tests by using Maven and Gradle.
+Build test data in a less verbose way by using factory methods and test data builders.
+Write clean assertions by using JUnit, Hamcrest, and AssertJ.
+Create test doubles with less code by using Mockito and Java 8.
+Make unit tests easier to read and maintain by leveraging the power of nested configuration.
+Write unit tests for Spring web applications.
+
+
+The Integration Testing module helps you to verify that your backend is working as expected and that unauthorized users cannot access the data of your users.
+
+Run integration tests by using Maven and Gradle.
+Create DbUnit datasets that are easy to read and maintain.
+Write integration tests for Spring powered repositories.
+Write integration tests for Spring web applications by using the Spring MVC Test framework.
+Isolate the tested code from external systems and APIs.
+Configure the application context of your application in a way that supports testing.
+
+
+The End-to-End Testing module helps you to ensure that you don't deploy broken features into production and rewrite your tests when you make change to the UI.
+
+Run end-to-end tests by using Maven and Gradle.
+Verify that the migration scripts can create a working database.
+Initialize the database into a known state before each test case.
+Write end-to-end tests that are easy to fix when you make changes to the database.
+Write end-to-end tests for an AngularJS web application that has a Spring backend.
+Write end-to-end tests for a normal Spring web application
+
+
+The Polyglot Testing module helps you to write to less code and transform your tests into executable specifications that can be read by domain experts.
+
+Run Spock tests by using Maven and Gradle.
+Write clean tests by leveraging the less verbose syntax of Groovy programming language.
+Describe requirements by using plain English (or any other language)
+Structure requirements by using nested configuration.
+Visualize passing and failing requirements by creating an HTML test report.
+Write unit, integration, and end-to-end tests with Spock Framework.
+
